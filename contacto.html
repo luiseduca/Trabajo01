@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferreteria MOAR</title>
+    <link rel="stylesheet" href="./bootstrap-4.6.1-dist/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="./bootstrap-4.6.1-dist/css/main.css">
+   
+</head>
+<body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+        <img src="./img/maorferreteria-logo.jpg" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="productos.html">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>      
+    </div>
+  </nav>
+
+<div class="container">
+
+  <p>
+    Si deseas visitarnos, por favor diligencia el formulario a continuación.
+</p>
+
+    <form>
+        <section class="section-flex">
+
+            <article class="element-form">
+                <div class="label">
+                    <label for="">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre completo">
+            </article>
+
+            <article class="elemnt-form">
+                <div class="label">
+                    <label for="">Email</label>
+                </div>
+                <input type="text" name="email" id="email" placeholder="Escribe tu correo">
+            </article> 
+            
+            <article class="elemnt-form">
+                <div class="label">
+                    <label for="">Comentario</label>
+                </div>
+                <textarea name="comentario" id="comentario" cols="100" rows="10"></textarea>
+            </article>
+            
+            <article class="btn-article">
+                <button type="submit" onclick="validar()"> Enviar Datos </button>                       
+            </article>                 
+    
+        </section>
+
+    </form>
+</div>      
+
+
+    <script src="./js/jquery.slim.min.js"></script>
+    <script src="./bootstrap-4.6.1-dist/js/bootstrap.bundle.min.js" ></script>
+</body>
+
+<footer>
+  <div class="container background-footer">
+    <div class="text-white">
+      <a class="nav-link" href="index.html">Inicio</a>
+      <a class="nav-link" href="productos.html">Productos</a>
+      <a class="nav-link" href="contacto.html">Contacto</a> 
+    </div>
+      <div class="py-2">
+        <p class="text-center">
+          Creado por Luis Eduardo Camacho Legro
+        </p>
+      </div>
+ </div>
+</footer>
+
+</html>

@@ -1,0 +1,13 @@
+.navbar .nav-item .nav-link {
+    color: white;
+}
+
+.main-header {
+    background: url(../../img/tienda.png);
+    background-size: cover;
+    min-height: 500px;
+}
+
+.background-footer {
+    background: #d63031;
+}
